@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <link
+      id="favIcone"
+      rel="shortcut icon"
+      href="image/logosansfond_5.png"
+      type="image/x-icon"
+    />
+    <title>Les chasses au tresort</title>
+  </head>
+  <body>
+    <header>
+      <div id="social">
+        <div id="rechercher">
+          <input
+            id="inputRechercher"
+            type="text"
+            placeholder=" &#128269; Rechercher"
+          />
+          <button id="buttonRechercher" class="bouttonGo">GO</button>
+        </div>
+        <div id="bouttonSocial">
+          <a
+            class="bouttonSocial"
+            href="https://www.facebook.com/home.php"
+            target="_blank"
+            ><img src="image/favfacebook (2).png" alt="img facebook"
+          /></a>
+          <a
+            class="bouttonSocial"
+            href="https://www.tiktok.com/home.php"
+            target="_blank"
+            ><img src="image/favtiktok (2).png" alt="img titok"
+          /></a>
+          <a
+            class="bouttonSocial"
+            href="https://www.x.com/home.php"
+            target="_blank"
+            ><img src="image/favx (2).png" alt="img x"
+          /></a>
+
+          <a class="bouttonSocial" id="lienInscription" href="insciption.html"
+            >Inscription</a
+          >
+        </div>
+      </div>
+      <div id="bandeau">
+        <a id="logoLink" href="index.html"
+          ><img
+            id="logo1"
+            src="image/logosansfond_5.png"
+            alt="img logo"
+            height="250px"
+            width="250px"
+        /></a>
+        <div id="parentTitre">
+          <div id="titre1">
+            <h1>
+              <strong>
+                LES CHASSES <br />
+                DE <br />
+                LORTHAN LE FABULEUX</strong
+              >
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div id="bandeauLog">
+        <a class="bouttonSocial" id="lienpanier" href="panier.html">🛒</a>
+        <div id="newLetter">
+          <output id="outputNewLetter"
+            ><div id="trainNewLetter"></div>
+            vide</output
+          >
+        </div>
+        <input id="pseudo" type="Identifiant" placeholder=" Identifiant" />
+        <input id="password" type="password" placeholder=" Mot de passe" />
+        <button id="buttonLogin" class="bouttonGo" type="submit">GO</button>
+
+        <div id="pseudoConfirme"></div>
+        <button id="buttonLogout" class="bouttonOut" type="submit">
+          Quitter
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <div id="coteGauche">
+        <nav id="sideMenu">
+          <div class="fondBouttonNav">
+            <img class="clef" src="image/clef.png" alt="une clef" />
+            <a id="button1" class="bouttonNav" href="index.html"
+              ><strong>Accueil</strong></a
+            >
+          </div>
+          <div class="fondBouttonNav">
+            <img class="clef" src="image/clef.png" alt="une clef" />
+            <a class="bouttonNav" href="Profil.html"><strong>Profil</strong></a>
+          </div>
+          <div class="fondBouttonNav">
+            <img class="clef" src="image/clef.png" alt="une clef" />
+            <a id="bouttonChasse" class="bouttonNav" href="chasseautresor.html"
+              ><strong>Trésor</strong></a
+            >
+          </div>
+          <div class="fondBouttonNav">
+            <img class="clef" src="image/clef.png" alt="une clef" />
+            <a class="bouttonNav" href="boutique.html"
+              ><strong>Boutique</strong></a
+            >
+          </div>
+          <div class="fondBouttonNav">
+            <img class="clef" src="image/clef.png" alt="une clef" />
+            <a class="bouttonNav" href="option.html"><strong>Option</strong></a>
+          </div>
+          <div class="fondBouttonNav">
+            <img class="clef" src="image/clef.png" alt="une clef" />
+            <a class="bouttonNav" href="contact.html"
+              ><strong>Contact</strong></a
+            >
+          </div>
+        </nav>
+      </div>
+      <div id="chasseCorp">
+        <img
+          id="chasseImage"
+          src="image/chasseImage.png"
+          alt="image de lorthan"
+        />
+        <div id="chasseDiv"></div>
+        <div id="pourTel">
+          <div id="fondPourTel">
+            <p>NON ACCECIBLE DEPUIS UN TEL</p>
+          </div>
+        </div>
+        <div id="sideMenu2">
+          <nav id="sideMenu3">
+            <div class="fondBouttonNav">
+              <a id="button1" class="bouttonNav" href="index.html"
+                ><strong>Accueil</strong></a
+              >
+            </div>
+            <div class="fondBouttonNav">
+              <a class="bouttonNav" href="Profil.html"
+                ><strong>Profil</strong></a
+              >
+            </div>
+            <div class="fondBouttonNav">
+              <a
+                id="bouttonChasse"
+                class="bouttonNav"
+                href="chasseautresor.html"
+                ><strong>Trésor</strong></a
+              >
+            </div>
+            <div class="fondBouttonNav">
+              <a class="bouttonNav" href="boutique.html"
+                ><strong>Boutique</strong></a
+              >
+            </div>
+            <div class="fondBouttonNav">
+              <a class="bouttonNav" href="option.html"
+                ><strong>Option</strong></a
+              >
+            </div>
+            <div class="fondBouttonNav">
+              <a class="bouttonNav" href="contact.html"
+                ><strong>Contact</strong></a
+              >
+            </div>
+          </nav>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <img id="footerLogo" src="image/fondFotter.png" alt="img logo" />
+
+      <div id="footerCadre">
+        <div id="footerTexte">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
+            accusamus repellat rerum ad tenetur earum eaque magni quibusdam ab
+            explicabo, qui assumenda ratione quos delectus sunt aliquid. Cumque,
+            dolorem inventore!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
+            accusamus repellat rerum ad tenetur earum eaque magni quibusdam ab
+            explicabo, qui assumenda ratione quos delectus sunt aliquid. Cumque,
+            dolorem inventore!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
+            accusamus repellat rerum ad tenetur earum eaque magni quibusdam ab
+            explicabo, qui assumenda ratione quos delectus sunt aliquid. Cumque,
+            dolorem inventore!
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
